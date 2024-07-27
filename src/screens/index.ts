@@ -4,3 +4,4 @@ export * from "./listUsersScreen";
 export * from "./userScreen";
 export * from "./listClientsScreen";
 export * from "./clientScreen";
+export * from "./messageScreen";

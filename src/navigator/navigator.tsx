@@ -6,7 +6,8 @@ import {
   ListUsersScreen,
   UserScreen,
   ListClientsScreen,
-  ClientScreen
+  ClientScreen,
+  MessageScreen
 } from "@/screens";
 import { RequireAuth } from "./requiresAuth";
 
@@ -28,6 +29,7 @@ export function RootNavigator() {
           <Route path={"/home"} element={<HomeScreen />} />
           <Route path={"/users"} element={<ListUsersScreen />} />
           <Route path={"/clients"} element={<ListClientsScreen />} />
+          <Route path={"/mensagem"} element={<MessageScreen />} />
         </Route>
         <Route
           path={"/"}
